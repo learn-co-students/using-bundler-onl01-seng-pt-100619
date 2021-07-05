@@ -6,7 +6,7 @@ describe "Bundler" do
     Bundler.with_clean_env do
       @bundle_output = `bundle`
     end
-  end
+  
 
   describe "Gemfile" do
     before :all do
